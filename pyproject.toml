@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "FastNBessel"
+version = "0.1.0"
+description = "Fast transforms with arbitrary products of Bessel functions"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Xiao Fang", email = "xfangcosmo@gmail.com"}]
+dependencies = ["numpy>=1.23", "scipy>=1.9"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+[project.urls]
+Homepage = "https://github.com/xfangcosmo/FastNBessel"
+Repository = "https://github.com/xfangcosmo/FastNBessel"
+Issues = "https://github.com/xfangcosmo/FastNBessel/issues"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+examples = ["matplotlib>=3.7", "jupyter>=1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+nbessel = ["py.typed"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+pythonpath = ["src"]
+testpaths = ["tests"]

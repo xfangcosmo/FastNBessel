@@ -1,0 +1,65 @@
+{
+  "galaxy_3pcf": {
+    "median_absolute_fractional_difference": 7.322242464439713e-06,
+    "percentile_90_absolute_fractional_difference": 1.5454832865824963e-05,
+    "percentile_95_absolute_fractional_difference": 2.425212035650798e-05,
+    "maximum_absolute_fractional_difference": 0.0008522752547669329,
+    "fraction_below_1e-5": 0.6770833333333334,
+    "maximum_absolute_difference": 1.1829490522557995e-08,
+    "maximum_difference_over_reference_peak": 7.883607167473757e-07
+  },
+  "shear_3pcf": {
+    "median_absolute_fractional_difference": 7.186930820144555e-06,
+    "percentile_90_absolute_fractional_difference": 0.00019361505213279923,
+    "percentile_95_absolute_fractional_difference": 0.0002589609545987723,
+    "maximum_absolute_fractional_difference": 0.0003468426220768253,
+    "fraction_below_1e-5": 0.524390243902439,
+    "maximum_absolute_difference": 0.0009423834204453918,
+    "maximum_difference_over_reference_peak": 0.0002032250706251504
+  },
+  "galaxy_3pcf_covariance": {
+    "median_absolute_fractional_difference": 3.980304902181622e-08,
+    "percentile_90_absolute_fractional_difference": 1.495066668435796e-07,
+    "percentile_95_absolute_fractional_difference": 2.638165601210597e-07,
+    "maximum_absolute_fractional_difference": 4.777714806228339e-07,
+    "fraction_below_1e-5": 1.0,
+    "maximum_absolute_difference": 6.322610135365088e-16,
+    "maximum_difference_over_reference_peak": 1.361776853137821e-08
+  },
+  "npcf_covariance": {
+    "median_absolute_fractional_difference": 8.92568687886466e-10,
+    "percentile_90_absolute_fractional_difference": 5.0600842799036626e-08,
+    "percentile_95_absolute_fractional_difference": 1.0864912936801348e-07,
+    "maximum_absolute_fractional_difference": 1.8951462336351496e-07,
+    "fraction_below_1e-5": 1.0,
+    "maximum_absolute_difference": 5.366090904956877e-11,
+    "maximum_difference_over_reference_peak": 6.391714554454975e-10
+  },
+  "sfb_bispectrum": {
+    "median_absolute_fractional_difference": 4.9308232528056143e-08,
+    "percentile_90_absolute_fractional_difference": 6.293245756209444e-07,
+    "percentile_95_absolute_fractional_difference": 8.962779661242841e-07,
+    "maximum_absolute_fractional_difference": 1.4404709810137506e-06,
+    "fraction_below_1e-5": 1.0,
+    "maximum_absolute_difference": 2.704900696872195e-11,
+    "maximum_difference_over_reference_peak": 3.0448938027163033e-08
+  },
+  "sfb_window": {
+    "median_absolute_fractional_difference": 5.51202007653994e-09,
+    "percentile_90_absolute_fractional_difference": 0.0004400054517998093,
+    "percentile_95_absolute_fractional_difference": 0.0005092611401126938,
+    "maximum_absolute_fractional_difference": 0.001334445516753079,
+    "fraction_below_1e-5": 0.7734375,
+    "maximum_absolute_difference": 1.0355158664837273e-15,
+    "maximum_difference_over_reference_peak": 3.88613310722486e-09
+  },
+  "two_loop_kernel": {
+    "median_absolute_fractional_difference": 1.0655036719651707e-09,
+    "percentile_90_absolute_fractional_difference": 1.931160971824142e-08,
+    "percentile_95_absolute_fractional_difference": 2.6303964405607607e-08,
+    "maximum_absolute_fractional_difference": 7.068699989017601e-08,
+    "fraction_below_1e-5": 1.0,
+    "maximum_absolute_difference": 9.704657910614145e-11,
+    "maximum_difference_over_reference_peak": 1.1142088244014197e-09
+  }
+}
